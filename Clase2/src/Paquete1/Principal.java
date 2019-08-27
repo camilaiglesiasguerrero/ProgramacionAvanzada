@@ -5,6 +5,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 //Ejercicio 3
+		System.out.println("Ingrese cadena: ");
 		Scanner sc = new Scanner(System.in);
 		String miString  = sc.nextLine();
 		//String miString =  "charjholadklajdslad";
