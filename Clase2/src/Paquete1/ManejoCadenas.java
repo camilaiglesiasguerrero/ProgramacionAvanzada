@@ -46,7 +46,7 @@ public class ManejoCadenas {
 		return retorno;
 	}
 	
-	public Boolean verificarContainsHola(String s)
+	public boolean verificarContainsHola(String s)
 	{/*
 		s = s.toUpperCase();
 		if(s.contains("HOLA"))
