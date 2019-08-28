@@ -36,6 +36,7 @@ public class Principal {
 			c.restar(n1, n2);
 			c.multiplicar(n1, n2);
 			c.dividir(n1,n2);
+			
 		}
 		catch(MiException e){
 			e.printStackTrace(); //arroja toda la información

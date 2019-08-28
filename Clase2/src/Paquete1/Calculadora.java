@@ -2,23 +2,31 @@ package Paquete1;
 
 public class Calculadora implements Icalcular {
 
-	public Double sumar(Number num1, Number num2)
+	public double sumar(Number num1, Number num2)
 	{
 		return num1.doubleValue() + num2.doubleValue();
 	}
 	
-	public Double restar(Number num1, Number num2)
+	public double restar(Number num1, Number num2)
 	{
+		// FIXME
 		return num1.doubleValue() - num2.doubleValue();
 	}
 	
-	public Double multiplicar(Number num1, Number num2)
+	public double multiplicar(Number num1, Number num2)
 	{
 		return num1.doubleValue() * num2.doubleValue(); 
 	}
 	
-	public Double dividir(Number num1, Number num2) throws MiException{
-		if(num2.intValue() == 0) {
+	/**
+	 * Permite dividir dos números
+	 * @param num1: número1
+	 * @param num2: número2
+	 * @return división
+	 * @throws MiException: excepción de tipo: no se puede dividir por cero
+	 * */
+	public double dividir(Number num1, Number num2) throws MiException{
+		if(num2.doubleValue() == 0) {
 			throw new MiException("No es posible dividir por cero");
 		}
 		
