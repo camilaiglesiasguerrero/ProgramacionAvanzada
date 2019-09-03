@@ -30,7 +30,7 @@ public class Principal {
 //Ejercicio 5
 		try {
 			Number n1 = 4.3;
-			Number n2 = 0;
+			Number n2 = 2;
 			Calculadora c = new Calculadora();
 			c.sumar(n1, n2);
 			c.restar(n1, n2);
@@ -39,10 +39,10 @@ public class Principal {
 			
 		}
 		catch(MiException e){
-			e.printStackTrace(); //arroja toda la información
+			//e.printStackTrace(); //arroja toda la información
 			System.out.println(e.getMessage());//arroja mensaje 
-		}finally {		
-		}
+		}/*finally {		
+		}*/
 	
 	
 	}
