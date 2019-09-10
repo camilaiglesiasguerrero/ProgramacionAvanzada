@@ -1,10 +1,12 @@
 package Paquete1;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -79,7 +81,8 @@ public class Principal {
 			System.out.println(persona);
 		}*/
 		
-		List <Persona> lista = new ArrayList<Persona>();
+		/*Ordenamiento con array List*/
+		/*List <Persona> lista = new ArrayList<Persona>();
 		Persona p1 = new Persona("Matías","Ranos",31);
 		Persona p2 = new Persona("Matías","Ramos",31);
 		
@@ -91,8 +94,16 @@ public class Principal {
 		
 		for (Persona persona : lista) {
 			System.out.println(persona);
-		}
+		}*/
 		
+		
+		//NO ES COLLECTION
+		/*Map<Integer,Persona> datos = new HashMap<Integer,Persona>();
+		datos.put(10,new Persona("Matias","Ramos",31));
+		Persona p = datos.get(10);
+		System.out.println(p);
+		System.out.println(datos.keySet());
+		*/
 	}
 
 }
