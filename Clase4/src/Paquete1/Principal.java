@@ -1,9 +1,9 @@
 package Paquete1;
 
 import java.util.HashSet;
-import java.util.LinkedList;
+//import java.util.LinkedList;
 //import java.util.ArrayList;
-import java.util.List;
+//import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -56,14 +56,30 @@ public class Principal {
 			System.out.println(string);
 		}
 		*/
-		
+		/*
 		Set<String> lista = new TreeSet<String>();
 		lista.add("Hola");
 		lista.add("Chau");
 		lista.add("Adios");
 		for (String string : lista) {
 			System.out.println(string);
-		}
+		}*/
+		
+		/*Set<Persona> lista = new TreeSet<Persona>(); // con compare to sobreescrito
+		Persona p1 = new Persona("Matías","Ramos",31);
+		Persona p2 = new Persona("Matías","Ramos",31);
+		
+		lista.add(p1);
+		lista.add(p2);
+		lista.add(p1);
+		
+		System.out.println(lista.size());
+		for (Persona persona : lista) {
+			System.out.println(persona);
+		}*/
+		
+		
+		
 	}
 
 }
