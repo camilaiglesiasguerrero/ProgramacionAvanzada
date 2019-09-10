@@ -1,8 +1,11 @@
 package Paquete1;
 
+import java.util.HashSet;
 import java.util.LinkedList;
 //import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Principal {
 
@@ -31,7 +34,7 @@ public class Principal {
 		*/
 		
 		/*LinkedList*/
-		List<String> lista = new LinkedList<String>();
+		/*List<String> lista = new LinkedList<String>();
 		lista.add("Hola");
 		lista.add("Chau");
 		for (int i = 0; i < lista.size(); i++) {
@@ -41,7 +44,26 @@ public class Principal {
 		System.out.println(lista.size());
 		System.out.println(lista.isEmpty());
 		System.out.println(lista.contains("Chau"));
+		*/
 		
+		/*HASHSET*/
+		/*
+		Set<String> lista = new HashSet<String>();
+		lista.add("Hola");
+		lista.add("Chau");
+		lista.add("Chau");
+		for (String string : lista) {
+			System.out.println(string);
+		}
+		*/
+		
+		Set<String> lista = new TreeSet<String>();
+		lista.add("Hola");
+		lista.add("Chau");
+		lista.add("Adios");
+		for (String string : lista) {
+			System.out.println(string);
+		}
 	}
 
 }
