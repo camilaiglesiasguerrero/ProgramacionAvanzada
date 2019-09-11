@@ -12,7 +12,7 @@ import java.util.TreeSet;
 
 public class Principal {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*Array List
 		List<String> lista = new ArrayList<String>();
@@ -122,6 +122,23 @@ public class Principal {
 		System.out.println(c);
 		*/
 		
+	//}
+	
+	//INICIO EJERCICIO
+	public static void main(String[] args) {
+		List<Persona> per = new ArrayList<Persona>();
+		List<Deportista> dep = new ArrayList<Deportista>();
+		
+		mostrar(per);
+		mostrar(dep);
+		
 	}
-
+	
+	//public static void mostrar(List<Persona> lista) { no existe herencia entre listas! 
+	//public static void mostrar(List<?> lista) { //Lista de comodin - Lista de cualquier cosa
+	public static void mostrar(List< ? extends Persona> lista) { //Lista de comodin - Lista de cualquier cosa mientras q sea obj heredado de Persona.
+		for (Persona persona : lista) {
+			System.out.println(persona.getNombre());
+		}
+	}
 }
