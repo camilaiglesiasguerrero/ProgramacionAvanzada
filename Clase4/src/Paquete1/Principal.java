@@ -104,6 +104,24 @@ public class Principal {
 		System.out.println(p);
 		System.out.println(datos.keySet());
 		*/
+		
+		//TIPOS GENERICOS
+		/*Caja c = new Caja();
+		c.add("cualquier verdura");
+		c.add(1);
+		System.out.println(c.get());
+		
+		Caja<String> c1 = new Caja();
+		c1.add("Solo string");
+		//c1.add(123);rompe
+		
+		System.out.println(c1.get());*/
+		
+		/*Caja<Integer,Float,Persona> c = new Caja();
+		c.add(Integer.valueOf(1), new Persona(), Integer.valueOf(2));
+		System.out.println(c);
+		*/
+		
 	}
 
 }
